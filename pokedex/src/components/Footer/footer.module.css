@@ -7,7 +7,7 @@
     color: white;
 } 
 
-.footer a[href*='mailto'] {
+.footer a[href*='mailto']  {
     color: orangered;
 }
 

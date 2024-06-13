@@ -5,5 +5,5 @@
 }
 
 .ul li::marker {
-    content: '🔍';
+    content: '🔍';      
 }
