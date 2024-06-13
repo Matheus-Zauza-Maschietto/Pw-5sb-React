@@ -1,0 +1,28 @@
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer a[href*='#'] {
+    color: white;
+} 
+
+.footer a[href*='mailto'] {
+    color: orangered;
+}
+
+.footer a[href*='tel'] {
+    color: limegreen;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: auto;
+}

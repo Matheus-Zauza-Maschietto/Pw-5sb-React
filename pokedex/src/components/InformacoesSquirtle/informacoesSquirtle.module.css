@@ -1,0 +1,14 @@
+.div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.div img, .div img {
+    transition: transform 0.3s ease-in-out;
+}
+.div img {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
