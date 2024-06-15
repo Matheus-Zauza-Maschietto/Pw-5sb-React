@@ -1,9 +1,10 @@
 import { CardSection } from "../CardSection/cardSection"
+import style from './evolucoes.module.css'
 
 export function Evolucoes() {
     return (
         <CardSection title="Evoluções">
-            <ul>
+            <ul className={style.ul}>
                 <li>
                     <a href="./pages/pokemon/index.html?name=squirtle">
                         <figure>

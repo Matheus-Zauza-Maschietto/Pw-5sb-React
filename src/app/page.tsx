@@ -6,11 +6,11 @@ import style from "./page.module.css"
 
 export default function Home() {
     return (
-        <body className={style.body}>
+        <div className={style.corpo}>
             <Header title="Squirtle"></Header>
             <Nav></Nav>
             <Main></Main>
             <Footer></Footer>
-        </body>
+        </div>
     );
 }
